@@ -17,8 +17,13 @@ public class ProfessionalFactory implements OutfitFactory{
     
     
      @Override
-    public Pants showShoes(){
+    public Shoes showShoes(){
     return new ProfessionalShoes();
+    }
+    
+       @Override
+    public Top showTop(){
+    return new ProfessionalTop();
     }
     
     
