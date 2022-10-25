@@ -13,5 +13,7 @@ public class Application {
     private Shoes shoes;
     private Pants pants;
     
+    public Application (OutfitFactory factory){
+    }
     
 }
