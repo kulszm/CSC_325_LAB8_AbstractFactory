@@ -10,9 +10,10 @@
 public interface OutfitFactory {
   
         
-        void showPants();
-        void showShoes();
-        void showTop();
+        Pants showPants();
+        Top showTop();
+        Shoes showShoes();
+        
  
    
     
