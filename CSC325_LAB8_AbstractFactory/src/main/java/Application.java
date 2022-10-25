@@ -9,4 +9,9 @@
  */
 public class Application {
     
+    private Top top;
+    private Shoes shoes;
+    private Pants pants;
+    
+    
 }
